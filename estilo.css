@@ -1,0 +1,41 @@
+
+body{
+	height: 1000px;
+
+}
+
+#Box{
+	background:#cccccc;
+	height: 500px;
+	width: 600px
+
+}
+
+#Box1{
+	background:red;
+	height: 100px;
+	width: 50px;
+	position: fixed;
+	top:100px;
+	right: 50px;
+
+}
+
+#Box2{
+	background:yellow;
+	height: 100px;
+	width: 50px;
+}
+#Box3{
+	background:green;
+	height: 100px;
+	width: 50px;
+}
+#menu {
+        content: "\2022";  
+        color: red; 
+        font-weight: bold; 
+        float: right;
+        list-style: none;
+        margin-top: 0px;
+}
