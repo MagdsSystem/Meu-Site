@@ -1,0 +1,100 @@
+	html,body{
+           margin: 0;
+           padding: 0;
+}
+header {
+    background-color: black; 
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: static;
+    z-index: 10;
+	}	
+  #imagem_fundo{
+    background: url(fundo2.png);
+    height: 100%;
+    text-align: center;
+}        
+    #logo{
+    width: 90px; 
+    height: 50px;
+    position: absolute;
+    top:5px;
+    margin left: 5%;
+	}
+	#título{
+	color: #0652DD;
+	padding-top: 5%;
+    font-size: 50px;
+    line-height: 0.6;
+    text-align: center;
+    }
+
+	#subtitulo{
+	color: black;	 
+    text-align: center;
+    border-top: 3px solid white;
+     text-shadow: 1px 1px  black;
+    }
+    #acao{
+    font-size: 20px;
+    color: #0652DD;
+    border: 1px black solid;
+    padding: 10px 20px 10px 20px ;	
+    }
+    #menu {
+    content: "\2022";  
+    color: white;  
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+    margin right: 5%;
+}
+li {
+    float: left;
+    padding:  20 10 20 10;
+}
+li:hover {
+    background-color: white;
+    padding: 20px;
+    float: left;
+}
+footer {
+    background-color: #74b9ff;
+    float: left;
+    width: 100%;
+    height: 30%;
+    color: rgb(10 10 20);
+}
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+#Desafio{
+    color: #EA2027;
+    padding-top: 1%;
+    font-size: 40px;
+    line-height: 0.6;
+}
+#justificado{
+    text-align: justify;
+}
+.destaque{
+    background-color: #f8a5c2
+
+}
+#Oito{
+    color: #e67e22;
+    padding-top: 1%;
+    font-size: 50px;
+    line-height: 0.6;
+}
+#fo{
+    color: black;
+    padding-top: 1%;
+    font-size: 25px;
+    line-height: 0.6;
+}
+
